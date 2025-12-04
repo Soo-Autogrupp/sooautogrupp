@@ -288,21 +288,31 @@ export default function Home() {
             </p>
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 items-center">
-              <div className="flex items-center justify-center p-4 bg-white rounded-lg shadow-sm">
+              <a
+                href="https://www.vuran.ee/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
+              >
                 <img
                   src="/branding/Vuran.png"
                   alt="Vuran"
                   className="max-h-16 w-auto object-contain"
                 />
-              </div>
+              </a>
 
-              <div className="flex items-center justify-center p-4 bg-white rounded-lg shadow-sm">
+              <a
+                href="https://kregori.ee/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
+              >
                 <img
                   src="/branding/Kregori.png"
                   alt="Kregori"
                   className="max-h-16 w-auto object-contain"
                 />
-              </div>
+              </a>
 
               <a
                 href="https://www.4x4cruiser.eu/"

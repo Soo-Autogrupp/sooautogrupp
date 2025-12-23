@@ -8,7 +8,7 @@ export default function Header() {
   return (
     <header>
       {/* Holiday Banner */}
-      <div className="bg-gradient-to-r from-green-600 via-red-600 to-green-600 text-white py-3 px-4">
+      <div className="bg-gradient-to-r from-red-600 via-white to-blue-600 text-blue-900 py-3 px-4">
         <div className="container mx-auto text-center">
           <p className="text-sm md:text-base font-semibold">
             🎄 Lühike pühade paus, et 2026 veelgi tugevamalt alustada! Puhkame 23. detsembrist kuni 4. jaanuarini. 🎄

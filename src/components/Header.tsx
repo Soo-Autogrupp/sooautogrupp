@@ -6,7 +6,16 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   return (
-    <header className="bg-white shadow-md">
+    <header>
+      {/* Holiday Banner */}
+      <div className="bg-gradient-to-r from-green-600 via-red-600 to-green-600 text-white py-3 px-4">
+        <div className="container mx-auto text-center">
+          <p className="text-sm md:text-base font-semibold">
+            🎄 Lühike pühade paus, et 2026 veelgi tugevamalt alustada! Puhkame 23. detsembrist kuni 4. jaanuarini. 🎄
+          </p>
+        </div>
+      </div>
+      <div className="bg-white shadow-md">
       <div className="container mx-auto px-4">
         {/* Top bar */}
         <div className="py-2 border-b border-gray-100 text-sm hidden md:block">
@@ -86,6 +95,7 @@ export default function Header() {
             </div>
           )}
         </nav>
+      </div>
       </div>
     </header>
   );

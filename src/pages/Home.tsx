@@ -9,7 +9,7 @@ export default function Home() {
   const [isResetting, setIsResetting] = React.useState(false);
 
   React.useEffect(() => {
-    document.title = 'Soo Autogrupp - Professionaalne autohooldus Tallinnas';
+    document.title = 'Soo Autogrupp - Professionaalne autoremont Tallinnas';
   }, []);
 
   const vehicleImages = [
@@ -96,10 +96,10 @@ export default function Home() {
   return (
     <div>
       {/* Hero Section */}
-      <section 
-        className="relative h-[400px] md:h-[600px] bg-cover bg-center"
+      <section
+        className="relative h-[400px] md:h-[600px] bg-cover bg-center bg-fixed"
         style={{
-          backgroundImage: 'url("https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80")'
+          backgroundImage: 'url("/koduleht.jpg")'
         }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-50" />

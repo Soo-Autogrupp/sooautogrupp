@@ -107,7 +107,7 @@ export default function Home() {
           <div className="max-w-2xl text-white">
             <h1 className="text-2xl md:text-5xl font-bold mb-4">Maasturite ja sõiduautode remont Tallinnas.</h1>
             <p className="text-base md:text-xl mb-8">
-              Kiire ja usaldusväärne autoremont Tallinnas. Üksköik mis mark või mudel teie auto on, me paneme selle uuesti liikuma.
+              Kiire ja usaldusväärne autoremont Tallinnas. Ükskõik mis mark või mudel teie auto on, me paneme selle uuesti liikuma.
             </p>
             <Link
               to="/kontakt"

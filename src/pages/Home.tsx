@@ -351,7 +351,7 @@ export default function Home() {
                   alt="Green Oval"
                   className="max-h-16 w-auto object-contain mb-2"
                 />
-                <p className="text-xs text-gray-700 text-center leading-tight">Eestis ainus tunnustatud Santana ja Iveco Massif originaalvaruosade paigalduspartner.</p>
+                <p className="text-xs text-gray-700 text-center leading-tight">Eestis ainus tunnustatud Santana ja Iveco Massif originaalvaruosade paigalduspartner</p>
               </a>
 
               <a

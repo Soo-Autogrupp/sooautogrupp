@@ -344,13 +344,14 @@ export default function Home() {
                 href="https://www.greenoval.ee/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-center p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
+                className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
               >
                 <img
-                  src="https://github.com/Soo-Autogrupp/pildid/blob/main/Green%20Oval.png?raw=true"
+                  src="https://github.com/Soo-Autogrupp/pildid/blob/main/Green_Oval.png?raw=true"
                   alt="Green Oval"
-                  className="max-h-16 w-auto object-contain"
+                  className="max-h-16 w-auto object-contain mb-2"
                 />
+                <p className="text-xs text-gray-700 text-center leading-tight">Eestis ainus tunnustatud Santana ja Iveco Massif originaalvaruosade paigalduspartner.</p>
               </a>
 
               <a

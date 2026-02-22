@@ -28,6 +28,13 @@ export default function Header() {
             </div>
           </div>
         </div>
+
+        {/* Independence Day Banner */}
+        <div className="bg-blue-100 py-3">
+          <div className="flex justify-center">
+            <p className="text-gray-800 font-medium text-sm md:text-base">Head iseseisvuspäeva! Puhkame 23-24 veebruar, tagasi 25 veebruar</p>
+          </div>
+        </div>
         
         {/* Main navigation */}
         <nav className="py-4">

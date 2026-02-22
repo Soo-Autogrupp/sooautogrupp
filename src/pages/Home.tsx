@@ -95,6 +95,13 @@ export default function Home() {
 
   return (
     <div>
+      {/* Independence Day Banner */}
+      <section className="bg-blue-100 py-4">
+        <div className="container mx-auto px-4 text-center">
+          <p className="text-gray-800 font-medium">Head iseseisvuspäeva! Puhkame 23-24 veebruar, tagasi 25 veebruar</p>
+        </div>
+      </section>
+
       {/* Hero Section */}
       <section
         className="relative h-[400px] md:h-[600px] bg-cover bg-center bg-fixed"

@@ -105,7 +105,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-black bg-opacity-50" />
         <div className="relative container mx-auto px-4 h-full flex items-center">
           <div className="max-w-2xl text-white">
-            <h1 className="text-2xl md:text-5xl font-bold mb-4">Maasturite ja sõiduautode remont Tallinnas</h1>
+            <h1 className="text-2xl md:text-5xl font-bold mb-4">Maasturite ja sõiduautode remont Tallinnas.</h1>
             <p className="text-base md:text-xl mb-8">
               Kiire ja usaldusväärne autoremont Tallinnas. Ükskõik mis mark või mudel teie auto on, me paneme selle uuesti liikuma.
             </p>
@@ -351,7 +351,7 @@ export default function Home() {
                   alt="Green Oval"
                   className="max-h-16 w-auto object-contain mb-2"
                 />
-                <p className="text-xs text-gray-700 text-center leading-tight">Eestis ainus tunnustatud Santana ja Iveco Massif originaalvaruosade paigalduspartner</p>
+                <p className="text-xs text-gray-700 text-center leading-tight">Eestis ainus tunnustatud Santana ja Iveco Massif originaalvaruosade paigalduspartner.</p>
               </a>
 
               <a
